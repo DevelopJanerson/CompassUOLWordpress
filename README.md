@@ -136,7 +136,7 @@ Antes de iniciar a implementação, certifique-se de que você possui:
 6. Em **Detalhes avançados**, no campo **Dados do usuário (opcional)**, cole o arquivo: `script_Wordpress` fornecido neste repositório.
 7. Finalize a criação da instância clicando em **Launch instance**.
 
-## Parte 2: Configuração de Auto Scaling e Load Balancer na AWS
+## Parte 2: Configuração de Auto Scaling e Load Balancer 
 
 ### Etapa 1: Criação da imagem.
 1. **Acesse o Console da AWS**:

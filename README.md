@@ -100,7 +100,7 @@ Antes de iniciar a implementação, certifique-se de que você possui:
    - A criação da instância pode levar alguns minutos. 
    - Copie o endpoint da instância criada e cole no `script_Wordpress` fornecido neste repositório.
 
-### Etapa 4: Criando um Sistema de Arquivos EFS
+### Etapa 4: Criação um Sistema de Arquivos EFS
 1. **Inicie o Processo de Criação**: 
    - Procure por "EFS" na barra de pesquisa e selecione **EFS**. Depois clique no botão **Create file system**.
 

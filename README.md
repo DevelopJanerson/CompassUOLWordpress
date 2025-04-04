@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/6accdb30-8908-47cc-9840-61a1835afec8)
+
 # Infraestrutura AWS para WordPress: Escalabilidade e Alta Disponibilidade
 
 ![Proposito projeto](https://github.com/user-attachments/assets/82045620-24f6-4ab2-9a90-a539e9db747e)

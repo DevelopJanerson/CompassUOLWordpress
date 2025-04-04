@@ -1,5 +1,8 @@
 # Infraestrutura AWS para WordPress: Escalabilidade e Alta Disponibilidade
 
+![Proposito projeto](https://github.com/user-attachments/assets/82045620-24f6-4ab2-9a90-a539e9db747e)
+
+
 ## Descrição do Projeto
 
 Este projeto tem como objetivo implementar uma infraestrutura escalável e resiliente na Amazon Web Services (AWS) para efetuar o deploy de uma aplicação WordPress. A arquitetura consiste em duas instâncias EC2 localizadas em zonas diferentes, ambas conectadas a um banco de dados RDS e suportadas por um Load Balancer. Utilizando serviços como EC2, RDS, EFS, Auto Scaling e Load Balancer, a infraestrutura é projetada para suportar picos de tráfego, garantindo alta disponibilidade e desempenho para a aplicação WordPress.
@@ -131,24 +134,6 @@ Antes de iniciar a implementação, certifique-se de que você possui:
 6. Em **Detalhes avançados**, no campo **Dados do usuário (opcional)**, cole o arquivo: `script_Wordpress` fornecido neste repositório.
 7. Finalize a criação da instância clicando em **Launch instance**.
 
-### Etapa 6: Acesso à Instância EC2 via SSH
-A conexão pode ser realizada utilizando o Visual Studio Code.
-
-1. Na plataforma da AWS, selecione a instância criada anteriormente e clique em **Connect**.
-2. Copie o comando exibido no campo **SSH Client**.
-3. No terminal do Visual Studio Code, navegue até a pasta onde está armazenada a chave `.pem` criada  na Etapa 5.
-4. Cole o comando que você acabou de copiar na AWS, no campo **SSH Client**.
-5. Certifique-se de estar logado previamente na plataforma da AWS com suas credenciais de acesso (via terminal do Visual Studio Code).
-
-### Testes
-Nesta seção, apresentamos algumas capturas de tela que demonstram o funcionamento do projeto:
-
-- Captura de tela da Página no Navegador **ec2_1**
-- Captura de tela da Página no Navegador **ec2_2**
-- Captura de tela com acesso via cliente MySQL da **ec2_1**
-- Captura de tela com acesso via cliente MySQL da **ec2_2**
-- Colocar um print em um local apropriado(arquitetura) do proposito do projeto
-
 ## Parte 2: Configuração de Auto Scaling e Load Balancer na AWS
 
 ### Etapa 1: Criação da imagem.
@@ -243,10 +228,22 @@ Por meio dessa conexão remota, pode ser verificado os registros de erros em: `/
 ### Testes
 Nesta seção, apresentamos algumas capturas de tela que demonstram o funcionamento do projeto:
 
-- Captura de tela auto scaling funcionado
-- Captura de tela load balance funcionando
-- Captura de tela health ckeck funcionando
+- Captura de tela da Página no Navegador **ec2_1**
+  
+  ![Navegado Wordpress_1](https://github.com/user-attachments/assets/4487d672-6b92-4def-9c0f-02fc75563684)
+  
+- Captura de tela da Página no Navegador **ec2_2**
 
+  ![Navegador wordpress_2](https://github.com/user-attachments/assets/092a71dd-5e35-4d1e-8713-b06b98b4aa04)
+  
+- Captura de tela com acesso via cliente MySQL da **ec2_1**
+
+  ![Teste Banco_1](https://github.com/user-attachments/assets/cf66a060-354e-496a-81d4-9647ccad3b8b)
+  
+- Captura de tela com acesso via cliente MySQL da **ec2_2**
+
+  ![Teste Banco_2](https://github.com/user-attachments/assets/e4ce380c-6c14-4999-b23c-f0b9b2da75b0)
+  
 ## Conclusão
 
 Neste projeto, implementamos uma infraestrutura escalável e resiliente na Amazon Web Services (AWS) para hospedar uma aplicação WordPress. Através da configuração de instâncias EC2, um banco de dados RDS, um sistema de arquivos EFS, Auto Scaling e Load Balancer, criamos um ambiente robusto que não apenas suporta picos de tráfego, mas também assegura alta disponibilidade e desempenho consistente.

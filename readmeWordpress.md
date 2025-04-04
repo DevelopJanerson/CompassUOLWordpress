@@ -2,7 +2,7 @@
 
 ## Descrição do Projeto
 
-Este projeto tem como objetivo implementar uma infraestrutura escalável e resiliente na Amazon Web Services (AWS) para efetuar o deploy de uma aplicação WordPress. A arquitetura consiste em duas instâncias EC2 localizadas em zonas diferentes, ambas conectadas a um banco de dados RDS e suportadas por um Load Balancer. Utilizando serviços como EC2, RDS, EFS, Auto Scaling e Load Balancer, a infraestrutura é projetada para suportar picos de tráfego, garantindo alta disponibilidade e desempenho para a aplicação WordPress.
+Este projeto implementa uma infraestrutura escalável e resiliente na Amazon Web Services (AWS) para efetuar o deploy de uma aplicação WordPress. A arquitetura consiste em duas instâncias EC2 localizadas em zonas diferentes, ambas conectadas a um banco de dados RDS e suportadas por um Load Balancer. Utilizando serviços como EC2, RDS, EFS, Auto Scaling e Load Balancer, a infraestrutura é projetada para suportar picos de tráfego, garantindo alta disponibilidade e desempenho para a aplicação WordPress.
 
 ## Objetivo
 
